@@ -2,6 +2,9 @@
 # Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,macos,astro,node,react,reactnative,vue,vuejs
 # Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,macos,astro,node,react,reactnative,vue,vuejs
 
+# dependencies
+node_modules/
+
 ### Astro ###
 # Gitignore template for Astro projects
 # Ignore content collection generated files
@@ -14,7 +17,8 @@
 .LSOverride
 
 # Icon must end with two \r
-Icon
+Icon
+
 
 # Thumbnails
 ._*
