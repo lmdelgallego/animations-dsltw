@@ -9,7 +9,7 @@ const { animation } = theme
 	<main class="pb-20">
 		<header class="max-w-4xl mx-auto flex justify-center items-center py-10 flex-col">
 			<h1 class="font-semibold text-4xl pt-10">tailwind css animation</h1>
-			<h2 class="font-medium opacity-70">the pluin that you need</h2>
+			<h2 class="font-medium opacity-70">the plugin that you need</h2>
 			<div class="mt-10">
 				<code>npm install @lumidega/animations-dsltw</code>
 			</div>
@@ -21,11 +21,11 @@ const { animation } = theme
         Object.keys(animation).map((animationKey) => {
           return (
             <article
-              class='col-span-1 border rounded border-gray-200 hover:border-gray-600 hover:shadow transition cursor-crosshair'
+              class='col-span-1 border rounded border-gray-200 transition-colors duration-300 hover:border-gray-600 hover:shadow cursor-crosshair'
               data-class={animationKey}
             >
               <div class='p-4 flex gap-4 items-center justify-center flex-col w-full h-full'>
-                <span class='h-16 w-16 bg-blue-600 items-center justify-center rounded-md' />
+                <span class='flex h-16 w-16 bg-blue-600 items-center justify-center rounded-md' />
                 <p class='text-sm font-semibold opacity-80'>{animationKey}</p>
               </div>
             </article>
